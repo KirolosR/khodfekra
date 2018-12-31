@@ -1,0 +1,684 @@
+/* * * * * * * * *
+ *
+ *	=General
+ *
+ * * * * * * * * */
+/*bluesh #0096ff*/
+/*grayesh #525252*/
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    height: 100%
+    }
+
+@font-face {
+    font-family: "Glyphicons Halflings";
+    src: url(../fonts/glyphicons-halflings-regular.eot);
+    src: url(../fonts/glyphicons-halflings-regular.eot?#iefix) format("embedded-opentype"), url(../fonts/glyphicons-halflings-regular.woff2) format("woff2"), url(../fonts/glyphicons-halflings-regular.woff) format("woff"), url(../fonts/glyphicons-halflings-regular.ttf) format("truetype"), url(../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format("svg")
+    }
+
+body {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #525252;
+    background: #eee
+    }
+
+ul {
+    padding-left: 0
+    }
+
+ul li {
+    display: inline-block;
+    text-decoration: none
+    }
+
+a {
+    text-decoration: none;
+    color: #525252
+    }
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal
+    }
+
+.warp {
+    max-width: 960px;
+    min-width: 610px;
+    margin: auto !important;
+    position: relative
+    }
+
+#header-home, #homeFooter, #main-offer, #profile {
+    display: block;
+    overflow: hidden;
+    clear: both;
+    margin: 0
+    }
+
+input ,textarea{
+    height: 30px;
+    line-height: 30px;
+    border: 2px solid #525252;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    padding: 0 8px
+    }
+textarea{
+	padding:8px;
+	height:100px;
+	line-height:1.2em;
+}
+
+input[type="submit"] {
+    background: #3e3e3e;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    color: yellow;
+    height: 34px
+    }
+
+input[type="submit"]:hover {
+    background: #525252
+    }
+
+input[type="file"] {
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    background: white
+    }
+
+#googleMap {
+    border: 2px solid #525252;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px
+    }
+
+/* * * * * * * * *
+ *****************
+ *	=homePage
+ *****************
+ * * * * * * * * */
+#main-page {
+    background-image: url(../img/2.jpg);
+    /*5*/
+    /*1-2-3-5-6*/
+    /*--4--6--7--9--*/
+    background-attachment: fixed;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    color: #333
+    }
+
+/******************
+#nav{
+		position:absolute;
+		top:0px;
+		right:0px;
+		display:inline;
+	}
+	#nav li{
+		text-decoration:none;
+		display:inline;
+		margin-left:-4px;
+	}
+	#nav a{
+		padding:10px;
+		background:#3e3e3e;
+		color:yellow;
+		text-decoration:none;
+		border:2px solid #525252;
+		border-radius:0px 0px 5px 5px;
+	}
+	#nav a:hover{
+		background:#525252;
+		position:relative;
+		top:8px;
+		padding-top:8px;
+	}*/
+/* * * * * * * * *
+ *	=header
+ * * * * * * * * */
+#logo-home a {
+    background-image: url(../img/logo.png);
+    width: 224px;
+    height: 232px;
+    text-indent: -9999px;
+    float: left
+    }
+
+#head-Side {
+    display: block;
+    position: absolute;
+    top: -2px;
+    right: 0
+    }
+
+/**************************/
+#nav {
+    position: relative;
+    top: 0;
+    right: 0;
+    margin-top: -15px
+    }
+
+#nav li {
+    text-decoration: none;
+    display: inline;
+    margin-left: -4px
+    }
+
+#nav a {
+    padding: 10px;
+    background: #3e3e3e;
+    color: yellow;
+    text-decoration: none;
+    border: 2px solid #525252;
+    -moz-border-radius: 0 0 5px 5px;
+    -webkit-border-radius: 0 0 5px 5px;
+    border-radius: 0 0 5px 5px
+    }
+
+#nav a:hover, #nav .selected a {
+    background: #525252;
+    position: relative;
+    top: 8px;
+    padding-top: 18px
+    }
+
+/**************************/
+#loginForm {
+    margin-top: 40px
+    }
+
+#loginForm span {
+    margin-right: 10px
+    }
+
+/*#loginForm input{
+	height:30px;
+	line-height:30px;
+	border:2px solid #525252;
+	border-radius:5px;
+	padding:0px 8px;
+}
+#loginForm input[type="submit"]{
+	background:#3e3e3e;
+	border-radius:5px;
+	color:yellow;
+	height:34px;
+}
+#loginForm input[type="submit"]:hover{
+	background:#525252;
+}*/
+#loginForm p, #loginForm a {
+    float: left;
+    margin: 0 10px
+    }
+
+#loginForm a {
+    background: #3e3e3e;
+    padding: 0 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    color: yellow
+    }
+
+#loginForm a:hover {
+    background: #525252
+    }
+
+#userLink {
+    color: #525252 !important;
+    background: none !important;
+    float: right !important;
+    text-decoration: underline;
+    margin: 0 !important
+    }
+
+#userLink:hover {
+    color: #000 !important;
+    text-decoration: none
+    }
+
+#userLink:after {
+    content: "!"
+    }
+
+/* * * * * * * * *
+*	=main
+* * * * * * * * */
+#main-home-container {
+    /*, #sideBar-home{*/
+    margin-top: 50px;
+    background: rgba(255, 255, 255, 0.75);
+    border: 2px solid #525252
+    }
+
+/****************************/
+#main-home {
+    display: block;
+    overflow: hidden;
+    clear: both;
+    margin: auto;
+    padding: 0 20%
+    }
+
+/*
+#main-home-container article{
+	border-radius:10px;
+	opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+*/
+/*=main-home-container*/
+#main-home-container {
+    width: 80%;
+    margin: auto;
+    padding: 100px 0 100px 100px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px
+    }
+
+#main-home-container article {
+    width: 80%;
+    display: block;
+    margin-bottom: 100px;
+    border-bottom: 2px solid #525252
+    }
+
+#main-home-container article a {
+    float: right;
+    background: #3e3e3e;
+    padding: 10px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    color: yellow
+    }
+
+#main-home-container article a:hover {
+    background: #525252
+    }
+
+/*
+/*=sideBar-home
+#sideBar-home{
+	width:30%;
+	float:right;
+	padding:10px;
+	border:2px solid #525252;
+	border-radius:10px;
+}
+#sideBar-home h3{
+	border-bottom:2px solid #525252;
+}
+#topOffers h4{
+	margin:10px 0px 0px 0px;
+}
+#topOffers p{
+	font-size:12px;
+}
+#topOffers li{
+	display:block;
+	overflow:hidden;
+	border-bottom:1px solid #eee;
+	padding:10px;
+	border-radius:5px;
+}
+#topOffers li:last-child{
+	border-bottom:0px;
+}
+#topOffers li:hover{
+	background:rgba(255, 255, 255, 0.8);
+}
+#topOffers img{
+	width:80px;
+	float:left;
+	margin:10px 10px 10px 0px;
+	border:2px solid #525252;
+	border-radius:5px
+}
+*/
+/* * * * * * * * *
+*	=footer-home
+* * * * * * * * */
+#homeFooter {
+    background: #3e3e3e;
+    height: 50px;
+    text-align: center;
+    color: yellow;
+    margin-top: 50px;
+    border-top: 2px solid #525252
+    }
+
+/* * * * * * * * *
+ *****************
+ *	=offer-description page
+ *****************
+ * * * * * * * * */
+#main-offer article {
+    font-weight: normal;
+    padding: 50px;
+    margin: 50px 0
+    }
+
+#main-offer img {
+    width: 300px;
+    float: left;
+    margin: 25px 40px 40px 0;
+    border: 2px solid #525252;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px
+    }
+
+#main-offer h2 {
+    font-size: 35px
+    }
+
+#main-offer #sale {
+    font-size: 25px;
+    font-weight: bold;
+    color: red;
+    text-shadow: 1px 1px 1px yellow, 1px 1px 5px #525252
+    }
+
+#main-offer ul {
+    clear: both
+    }
+
+#main-offer li {
+    display: block
+    }
+
+#main-offer li span {
+    float: left;
+    display: block;
+    margin-right: 15px;
+    font-weight: bold
+    }
+
+#main-offer li p {
+    display: block;
+    overflow: hidden
+    }
+
+#main-offer #googleMap {
+    margin-top: -10px
+    }
+
+/* * * * * * * * *
+ *****************
+ *	=new-advertise page
+ *****************
+ * * * * * * * * */
+#main-new-advertise {
+    padding: 40px;
+    background-image: url(../img/1.jpg);
+    /*1-2-3-5-6*/
+    /*--4--6--7--9--*/
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    color: #3e3e3e;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    /*box shadow*/
+    -moz-box-shadow: 0 2px 15px -2px rgba(87, 87, 87, 1);
+    -webkit-box-shadow: 0 2px 15px -2px rgba(87, 87, 87, 1);
+    box-shadow: 0 2px 15px -2px rgba(87, 87, 87, 1)
+    }
+
+#main-new-advertise h2 {
+    border-bottom: 2px solid #525252;
+    padding-bottom: 8px;
+    display: inline
+    }
+
+#main-new-advertise table {
+    margin: 40px 0;
+    background: rgba(255, 255, 255, 0.7);
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px
+    }
+
+#main-new-advertise td {
+    padding: 10px 15px
+    }
+
+#main-new-advertise input[type="submit"] {
+    display: block;
+    margin: auto;
+    width: 80%;
+    margin-top: 20px
+    }
+
+/* * * * * * * * *
+ *****************
+ *	=show_offers page
+ *****************
+ * * * * * * * * */
+#main-offers h2 {
+    padding-bottom: 8px;
+    border-bottom: 2px solid #525252;
+    display: inline;
+    overflow: hidden
+    }
+
+#offers {
+    padding-top: 50px;
+    width: 68%;
+    float: left;
+    padding-right: 5px
+    }
+
+.singleOffer {
+    width: 300px;
+    height: 300px;
+    margin: 0 15px 15px 0;
+    -moz-box-shadow: inset 0 0 35px -29px rgba(82, 82, 82, 1);
+    -webkit-box-shadow: inset 0 0 35px -29px rgba(82, 82, 82, 1);
+    box-shadow: inset 0 0 35px -29px rgba(82, 82, 82, 1);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    }
+
+.OfDet {
+    width: 285px;
+    position: absolute;
+    bottom: 0;
+    padding: 0px 8px 8px 8px;
+    background: rgba(0, 0, 0, 0.75);
+    -moz-border-radius: 0 0 5px 5px;
+    -webkit-border-radius: 0 0 5px 5px;
+    border-radius: 0 0 5px 5px;
+    display: none;
+    color: yellow
+    }
+
+.singleOffer:hover .OfDet {
+    display: block
+    }
+
+/**************************/
+#offersOptions {
+    width: 28%;
+    float: left;
+    margin: 50px 0;
+    padding: 10px;
+    border: 2px solid #525252;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px
+    }
+
+#offersOptions input {
+    display: block;
+    margin: auto
+    }
+
+/* * * * * * * * *
+ *****************
+ *	=profile page
+ *****************
+ * * * * * * * * */
+.for-profile {
+    margin-top: 5px !important
+    }
+
+#proTop {
+    margin-top: 40px;
+    display: inline-block
+    }
+
+#proTabs {
+    float: left;
+    margin-top: 20px;
+    }
+
+#proTop img {
+    width: 200px;
+    border: 2px solid #525252;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    float: left;
+    margin-right: 10%;
+	margin-bottom: 10%;
+    }
+
+#proTop h2 {
+    margin: 15px 15px 15px 25px;
+    }
+
+/*********tabs*********/
+/*initially hide all but first*/
+.js .tabs > div:not(:first-child) {
+    display: none;
+    }
+
+#tabHeadings {
+    float: right;
+    display: block;
+    clear: both;
+    margin-right: 15px;
+    margin-bottom: 8px
+    }
+
+#tabHeadings li {
+    text-decoration: none;
+    display: inline;
+    margin-left: -4px;
+    }
+
+#tabHeadings a {
+    padding: 10px;
+    background: #3e3e3e;
+    color: yellow;
+    text-decoration: none;
+    border: 2px solid #525252;
+    -moz-border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+    }
+
+#tabHeadings a:hover, #tabHeadings .selected a {
+    background: #525252;
+    }
+
+.tabs {
+    border: 2px solid #525252;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    margin-top: -10px;
+    width: 956px;
+    clear: both
+    }
+
+/**********info**********/
+#info {
+    padding: 5% 10%
+    }
+
+#info li {
+    display: block
+    }
+
+#info li span {
+    float: left;
+    margin-right: 5%
+    }
+
+/**********myOffers********/
+#myOffers ul {
+    padding: 5% 10%
+    }
+
+#myOffers li {
+    padding: 10px;
+    overflow: hidden;
+    width: 100%;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    z-index: 1
+    }
+
+#myOffers a {
+    display: block
+    }
+
+#myOffers li:hover {
+    background: #e3e3e3
+    }
+
+#myOffers img {
+    float: left;
+    margin: 0 15px 15px 0;
+    width: 15%;
+    border: 2px solid #525252;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px
+    }
+
+#myOffers h3, #myOffers p {
+    margin: 0 0 10px 0;
+    display: block
+    }
+
+#profile-new-offer {
+    text-align: center;
+    width: 60%;
+    display: block;
+    color: yellow;
+    padding: 10px;
+    background: #3e3e3e;
+    border: 2px solid #525252;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    margin: 40px auto
+    }
+
+#profile-new-offer:hover {
+    background: #525252
+    }
